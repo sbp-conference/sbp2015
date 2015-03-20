@@ -102,13 +102,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu.menu-open {
 	right: 0px;
+    z-index: 999;
 }
 
 .menu-wrap {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #006652;
+	background: #444444;
 	width: 200px;
 	height: 100%;
 }
@@ -125,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu h1.logo a:hover {
-	/*color: #F29100;*/
+	color: #F29100;
 }
 
 .menu img.logo {
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu a:hover {
 	color: #ffffff;
     text-decoration: none;
-    background-color: #16A085;
+    background-color: #ddd;
 }
 
 .menu a:active {
@@ -665,7 +666,7 @@ ul.speakers li {
 /* Topics & Loactions Sections */
 #locations {
 	display: block;
-	margin-top: 80px;
+	margin-top: 0px;
 	margin-bottom: 80px;
 }
 
