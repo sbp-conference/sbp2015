@@ -627,6 +627,18 @@ ul.speakers li {
     font-family: 'FontAwesome';
 }*/
 
+ul.topics, ol.topics  {
+    list-style-type: square;
+    padding-left:20px;
+}
+
+ol.topics li ol li, 
+ul.topics li ul li {
+    padding-bottom:0;
+    list-style:none;
+}
+
+
 #committeewrap i,
 #portfoliowrap i {
 	font-size: 50px;
