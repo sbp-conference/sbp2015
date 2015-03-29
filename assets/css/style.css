@@ -855,7 +855,7 @@ ul.topics li ul li {
 /* Photo Stream
 =================================================================== */
 .flickr-widget {margin-top: 15px; padding: 0px 5px; overflow: hidden;}
-.flickr-widget img {display: block; width: 100%;}
+.flickr-widget img {display: block; }
 .flickr-widget a:hover {border-color: #9F2C19;}
 
 .flickr-widget a {
